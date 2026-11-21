@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="dark"><title>Video Helper</title><link rel="stylesheet" href="styles.css"></head>
+<body><header><strong>Video Helper</strong><nav aria-label="View"><button id="media-tab" class="tab selected" aria-selected="true">Media</button><button id="jobs-tab" class="tab" aria-selected="false">Downloads <span id="active-count" hidden></span></button></nav><button id="refresh" class="icon" title="Scan page" aria-label="Scan page">↻</button></header>
+<main><section id="media-panel"><div id="media-list"></div><div id="empty" class="empty" hidden>Play a video to detect media.</div><button id="enable" class="enable" hidden>Enable all websites</button></section><section id="jobs-panel" hidden><div id="job-list"></div><div id="jobs-empty" class="empty" hidden>No downloads.</div></section></main>
+<div id="notice" class="notice" role="alert" hidden><span id="notice-text"></span><button id="grant" hidden>Enable access</button><button id="dismiss" class="icon" aria-label="Dismiss">×</button></div>
+<footer><span id="page-host"></span><button id="download-all" hidden>↓ Download all</button><button id="clear" hidden>Clear finished</button></footer><script type="module" src="popup.js"></script></body></html>

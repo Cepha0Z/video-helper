@@ -1,0 +1,31 @@
+{
+  "name": "video-helper",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "test:media": "node scripts/verify-media.mjs",
+    "fixture": "node scripts/fixture-server.mjs",
+    "docs:assets": "node scripts/readme-assets.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.12.1",
+    "googlevideo": "5.0.1",
+    "mediabunny": "1.66.2",
+    "mux.js": "6.3.0"
+  },
+  "devDependencies": {
+    "@ffmpeg-installer/ffmpeg": "1.1.0",
+    "@ffprobe-installer/ffprobe": "2.1.2",
+    "@resvg/resvg-js": "2.6.2",
+    "esbuild": "0.25.12"
+  },
+  "description": "Find and save supported videos from authenticated sessions and hard-to-detect adaptive players.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cepha0Z/video-helper.git"
+  }
+}

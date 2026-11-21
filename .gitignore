@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.test-output/
+.tools/
+*.zip
+artifacts/*.mp4
+.DS_Store
