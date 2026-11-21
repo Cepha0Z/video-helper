@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/hero.png" alt="Video Helper — beyond the obvious download" width="100%" />
+<img src="docs/assets/hero.png" alt="Real Video Helper popup detecting a video on X in Brave" width="100%" />
 
 # Video Helper
 
@@ -37,11 +37,11 @@ It uses your existing playback session; it does not unlock content or bypass log
 
 ## See it in motion
 
-<img src="docs/assets/workflow.gif" alt="Illustrated workflow: detect a lesson, choose quality, start a download, move to the next lesson, and download concurrently" width="100%" />
+<img src="docs/assets/workflow.gif" alt="Live capture of Video Helper detecting media on X, choosing quality, starting a download and confirming the saved MP4" width="100%" />
 
-<p align="center"><a href="docs/assets/workflow.mp4">Watch the 12-second MP4 walkthrough</a> · <a href="docs/assets/workflow.png">View the still image</a></p>
+<p align="center"><a href="docs/assets/workflow.mp4">Watch the 14-second live demo</a> · <a href="docs/assets/workflow.png">View the still image</a></p>
 
-*The visuals above illustrate the workflow using synthetic media. They are not recordings of the real-site tests below.*
+*Captured from the working extension in Brave on X. Edited for pacing with smooth zooms around the real cursor clicks. Setup, the save dialog, and unrelated download history are omitted; the UI and saved-file result are real.*
 
 ## Small popup. Serious media handling.
 
@@ -121,7 +121,7 @@ Download only media you own or are authorized to save.
 npm test             # parsers, request isolation, queues, MP4 handling, platform discovery
 npm run test:media   # generated streams, downloads, merging, full decoding, cleanup
 npm run fixture      # synthetic local video page at http://127.0.0.1:4173
-npm run docs:assets  # regenerate the README artwork and illustrated animation
+npm run docs:assets  # edit the captured UI footage and regenerate the README media
 ```
 
 [Development and verification notes](docs/development.md) · [Architecture](docs/architecture.md) · [Contributing](CONTRIBUTING.md)

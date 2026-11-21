@@ -8,4 +8,4 @@ Do not attach cookies, authorization headers, signed media URLs, playback tokens
 
 Changes to detection or media handling should include a focused regression test and, when possible, a generated fixture. Verify the saved file’s video, audio, duration, seeking, cancellation, and temporary-file cleanup. A detector returning a URL is not enough to claim that a site works.
 
-README visuals are generated from synthetic media using `npm run docs:assets`; they must remain labeled as illustrations rather than live download recordings.
+README media must show the actual working extension. Use real screenshots and live window captures, crop account details and unrelated history, and keep edits limited to pacing, framing, and cursor-focused zooms. `npm run docs:assets` edits the privacy-cropped capture in `docs/assets/live-window.mp4`; import a new capture with `--capture-dir`. Do not replace real UI with generated mockups or fabricate download outcomes.
